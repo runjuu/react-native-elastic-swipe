@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "target": "es5",
+    "module": "es2015",
+    "outDir": "build/",
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "jsx": "react",
+    "lib": ["dom", "es2015", "es2016"],
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "noEmitHelpers": true,
+    "importHelpers": true,
+    "strict": true,
+    "downlevelIteration": true,
+    "noImplicitReturns": true,
+    "skipLibCheck": true
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
