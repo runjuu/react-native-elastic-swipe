@@ -1,0 +1,8 @@
+/.idea
+/.rpt2_cache
+/node_modules
+.DS_Store
+ElasticSwipe.tsx
+rollup.config.js
+tsconfig.json
+yarn.lock
