@@ -134,11 +134,11 @@ export default class ElasticSwipe extends React.Component<Props, State> {
     return (
       <Animated.View
         {...this.panResponder.panHandlers}
-    style={[styles.container, style]}
-  >
-    {this.props.children}
-    </Animated.View>
-  );
+        style={[styles.container, style]}
+      >
+        {this.props.children}
+      </Animated.View>
+    );
   }
 }
 
