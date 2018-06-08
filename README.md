@@ -46,3 +46,10 @@ import Swipe from "react-native-elastic-swipe";
   }
   ...
 ```
+
+### Demo
+<p align="center">
+  <a href="https://github.com/Runjuu/SongLink">
+    <img src="https://i.imgur.com/M6RGAwG.gif" width="375" />
+  </a>
+</p>
