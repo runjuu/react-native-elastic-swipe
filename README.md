@@ -29,3 +29,25 @@ interface Props {
 当对应方向的滑动距离大于等于对应的 `criticalOffset*` 时，会触发对应的 `onChangeReachStateOf*` 方法，此时 `isReached` 为 `true`；
 
 反过来，当滑动距离小于对应的 `criticalOffset*` 时，触发方法时，`isReached` 为 `false`
+
+### 例子
+```jsx
+import Swipe from "react-native-elastic-swipe";
+  
+  ...
+  render() {
+    return (
+      <Swipe
+        friction={5}
+        swipeHorizontally
+        criticalOffsetX={21}
+        onSwipeMove={this.onSwipeMove}
+        onSwipeEnd={this.onSwipeEnd}
+        onChangeReachStateOfHorizontal={this.onChangeReachStateOfHorizontal}
+      >
+        <View />    
+      </Swipe>
+    );
+  }
+  ...
+```
