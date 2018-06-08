@@ -1,4 +1,8 @@
 # react-native-elastic-swipe
+[![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Runjuu/react-native-elastic-swipe/pulls)
+[![npm version](https://badge.fury.io/js/react-native-elastic-swipe.svg)](https://badge.fury.io/js/react-native-elastic-swipe)
+
 A simple react native swipe component with elastic effect.
 
 ```bash
