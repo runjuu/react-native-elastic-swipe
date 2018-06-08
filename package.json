@@ -1,7 +1,7 @@
 {
   "name": "react-native-elastic-swipe",
-  "version": "0.0.2",
-  "description": "",
+  "version": "1.0.0",
+  "description": "A simple react native swipe component with elastic effect.",
   "main": "./ElasticSwipe.js",
   "types": "./ElasticSwipe.d.ts",
   "scripts": {
@@ -12,6 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/Runjuu/react-native-elastic-swipe.git"
   },
+  "keywords": ["react-native", "react native", "swipe", "elastic effect", "swipe component"],
   "author": "Runjuu",
   "license": "MIT",
   "bugs": {
